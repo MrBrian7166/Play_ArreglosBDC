@@ -90,7 +90,7 @@ public class PruebasUnitariasArreglos {
         float[] salidaEsperada={7.8f,5.6f,3.4f,1.2f};
         
         float[] salidaReal= opa.RecorridoInvertido(entrada);
-        assertEquals(salidaEsperada,salidaReal);
+        assertArrayEquals(salidaEsperada,salidaReal);
     }
     
     @Test
@@ -99,7 +99,7 @@ public class PruebasUnitariasArreglos {
         float[] salidaEsperada={};
         
         float[] salidaReal= opa.RecorridoInvertido(entrada);
-        assertEquals(salidaEsperada,salidaReal);
+        assertArrayEquals(salidaEsperada,salidaReal);
     }
     
     @Test
@@ -108,7 +108,7 @@ public class PruebasUnitariasArreglos {
         float[] salidaEsperada={2f, 3f, 4f, 5f};
         
         float[] salidaReal= opa.ArregloAbsoluto(entrada);
-        assertEquals(salidaEsperada,salidaReal);
+        assertArrayEquals(salidaEsperada,salidaReal);
     }
     
     @Test
@@ -116,7 +116,7 @@ public class PruebasUnitariasArreglos {
         float[] entrada=null;
         float[] salidaEsperada={};
         float[] salidaReal= opa.ArregloAbsoluto(entrada);
-        assertEquals(salidaEsperada,salidaReal);
+        assertArrayEquals(salidaEsperada,salidaReal);
     }
     
     
