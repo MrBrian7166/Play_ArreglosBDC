@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-/*Probando webhook */
+/*Probando we  bhook */
 /*Huevo *//*Frijoles*/
 
 package itszn.mx.jugandoarreglos;
