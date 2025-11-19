@@ -26,7 +26,7 @@ pipeline{
       }
       post{
         always{
-          junit 'playArreglos/target/surefire-reports/*.xml'
+          junit 'jugandoArreglos/target/surefire-reports/*.xml'
         }
       }
     }
